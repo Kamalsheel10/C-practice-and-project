@@ -1,0 +1,13 @@
+
+-------------NON-TRAIL RECURSIVE-----------------
+
+A recursive function is said to be non-tail recursive if 
+the recursive call is not the last thing done by the
+function. After retrurning back, there is some something
+left to evaluate. 
+
+-------------TRAIL RECURSIVE-----------------
+
+A recursive functon is said to be tail recursive if the
+recursive call is the last thing done by the function.
+There is no need to keep record of the previous state.
